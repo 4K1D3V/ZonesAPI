@@ -1,0 +1,14 @@
+name: ZonesAPI
+version: 1.0.0
+main: pro.akii.ks.ZonesAPI
+api-version: 1.21
+author: ["Kit, Kite"]
+commands:
+  zonesapi:
+    description: Manage zones in ZonesAPI
+    usage: /<command> zone create <x1> <y1> <z1> <x2> <y2> <z2> [effect]
+    permission: zonesapi.zone.create
+permissions:
+  zonesapi.zone.create:
+    description: Allows creating zones
+    default: op
